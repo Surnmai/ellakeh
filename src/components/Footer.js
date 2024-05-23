@@ -20,7 +20,7 @@ const Footer = () => {
               </div>
               <div className="phone">
                 <p className="font-extrabold text-xl capitalize">phone: </p>
-                <p>(+233) 0 54 998 8953</p>
+                <p>(+233) 0 55 364 6904</p>
               </div>
               <div className="email">
                 <p className="font-extrabold text-xl capitalize">email: </p>
@@ -50,8 +50,7 @@ const Footer = () => {
 
           {/* copyright  */}
           <p className="copyright py-1 text-center">
-            &copy; {new Date().getFullYear()} Beads and Buttons - All rights
-            reserved.
+            &copy; {new Date().getFullYear()} Ellakeh - All rights reserved.
           </p>
         </div>
       </footer>
