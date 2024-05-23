@@ -1,7 +1,7 @@
 import React from "react";
 
 // import Logo
-import Logo from "../img/logo.png";
+// import Logo from "../img/logo.png";
 
 // import data
 import { navlinks } from "../data";
@@ -29,11 +29,14 @@ const Navbar = () => {
           <div className="container mx-auto flex justify-between items-center">
             {/* logo  */}
             <Link to={navlinks[0].path}>
-              <img
+              {/* <img
                 src={Logo}
                 alt="Logo"
                 className="h-10 w-10 md:h-16 md:w-16 cursor-pointer font-medium"
-              />
+              /> */}
+              <p className="text-white capitalize md:text-sm lg:text-xl">
+                Ellakeh
+              </p>
             </Link>
 
             {/* Nav  */}

@@ -2,7 +2,7 @@ import React from "react";
 
 // import image
 import InspirationalBoardBanner from "../img/inspirationalBoardBanner.jpg";
-import InspirationalBoardImg from "../img/inspirationalBoard.png";
+import InspirationalBoardImg from "../img/inspirationalBoard.jpg";
 
 // import Components
 import TopBanner from "../components/TopBanner";
