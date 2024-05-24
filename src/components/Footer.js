@@ -15,8 +15,8 @@ const Footer = () => {
             <div className="">
               <div className="address">
                 <p className="font-extrabold text-xl capitalize">address: </p>
-                <p>P.O. Box Os 3251, Osabene-Koforidua</p>
-                <p>Mile 50 junction</p>
+                <p>P.O. Box Os 94, Tanyigbe Etoe AME Zion Basic</p>
+                <p>Volta Region</p>
               </div>
               <div className="phone">
                 <p className="font-extrabold text-xl capitalize">phone: </p>
@@ -24,14 +24,14 @@ const Footer = () => {
               </div>
               <div className="email">
                 <p className="font-extrabold text-xl capitalize">email: </p>
-                <p className="mail">komparisalome97@gmail.com</p>
+                <p className="mail">emmanuellakeh@gmail.com</p>
               </div>
             </div>
 
             {/* index number  */}
             <p className="flex gap-2 py-1 font-extrabold text-xl">
               <h3 className="">Index number:</h3>
-              <span>4211290009</span>
+              <span>5201290065</span>
             </p>
 
             {/* socials  */}
