@@ -16,15 +16,16 @@ const Contact = () => {
           <iframe
             className="flex-1 rounded-md"
             title="map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10728.67613519535!2d-0.2862714703116987!3d6.068731300670047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf4035371e4685%3A0xd63ba66d68af3d02!2sKoforidua!5e0!3m2!1sen!2sgh!4v1714697515080!5m2!1sen!2sgh"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1053.8533100425634!2d0.5204134164895621!3d6.697377530459118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x102723d0b11d89b7%3A0x97105b757a5dfb28!2sTanyigbe%20Senior%20High%20School!5e1!3m2!1sen!2sgh!4v1716874017816!5m2!1sen!2sgh"
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
+
           {/* google form  */}
           <iframe
             className="flex-1 rounded-md"
             title="form"
-            src="https://docs.google.com/forms/d/e/1FAIpQLSfaiTep9Zs9jQt9HYRiLDOYYvpM4ZpmetXKbGk2EQXmWiQu3g/viewform?embedded=true"
+            src="https://docs.google.com/forms/d/e/1FAIpQLScHI2mkHCjznUHie1FytbatvJCg8e_KzMH-yy4KbfVLsP7C6g/viewform?embedded=true"
             // width="640"
             height="588"
             frameborder="0"
