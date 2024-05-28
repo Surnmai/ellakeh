@@ -19,15 +19,14 @@ const Design_specifications = () => {
           {/* content 1 */}
           <div className="mb-6">
             <div className="mb-6">
-              <h1 className="uppercase font-bold text-2xl ">shirt</h1>
+              <h1 className="uppercase font-bold text-2xl ">Long Dress</h1>
               <p>
-                Short sleeve shirt with opening at the shoulder seam. A simple
-                but elegant style with blue strip of grandpa fabric as design in
-                front of the shirt. Assembled together with 2 yards of grandpa
-                fabric
+                Long bustier dress with attachment on the shoulder to bust. Long
+                dress with opening at the side seam. A simple but elegant style.
+                Assembled together with 5yards of paradise fabric.
               </p>
             </div>
-            <div>
+            {/* <div>
               <h1 className="uppercase font-bold text-2xl ">pants (trouser)</h1>
               <p>
                 Pant is made from grandpa fabric with a turn up hem, a band,
@@ -35,7 +34,7 @@ const Design_specifications = () => {
                 centre front of the pant. Assembled together with 2 yards of
                 grandpa fabric.
               </p>
-            </div>
+            </div> */}
           </div>
 
           {/* content 2 */}
@@ -46,39 +45,39 @@ const Design_specifications = () => {
             </div>
             <div className="flex justify-center items-center gap-x-2">
               <p className="font-bold">Style Name/Number:</p>
-              <article>Elegant looks 23.</article>
+              <article>Classic wear</article>
             </div>
             <div className="flex justify-center items-center gap-x-2">
               <p className="font-bold">Researcher:</p>
-              <article>Kompari salomey</article>
+              <article>Keh Emmanuella</article>
             </div>
             <div className="flex justify-center items-center gap-x-2">
               <p className="font-bold">Designer:</p>
-              <article>Kompari salomey</article>
+              <article>Keh Emmanuella</article>
             </div>
             <div className="flex justify-center items-center gap-x-2">
               <p className="font-bold">Machinist:</p>
-              <article>Kompari salomey</article>
+              <article>Keh Emmanuella</article>
             </div>
             <div className="flex justify-center items-center gap-x-2">
               <p className="font-bold">Pattern maker:</p>
-              <article>Kompari salomey</article>
+              <article>Keh Emmanuella</article>
             </div>
             <div className="flex justify-center items-center gap-x-2">
               <p className="font-bold">size:</p>
-              <article>10-12</article>
+              <article>8-10</article>
             </div>
             <div className="mb-6">
-              <p className="font-bold">Measurement:</p>
+              <p className="font-bold">Measurement required:</p>
               <article>Bust</article>
               <article>Across back </article>
-              <article>Shirt length </article>
-              <article>Sleeve length </article>
+              <article>Dress length </article>
+              {/* <article>Sleeve length </article>
               <article>Around sleeve </article>
-              <article>Around sleeve </article>
+              <article>Around sleeve </article> */}
               <article>Waist </article>
-              <article>Thigh </article>
-              <article>Trouser length </article>
+              {/* <article>Thigh </article>
+              <article>Trouser length </article> */}
             </div>
           </div>
 

@@ -18,18 +18,17 @@ const Design_brief = () => {
             <h1 className="text-3xl font-bold uppercase my-6">client Info</h1>
             <p className="font-bold">
               Company name:{" "}
-              <span className="font-normal">Beads and Buttons</span>
+              <span className="font-normal">EllaKeh’s couture </span>
             </p>
 
             <p className="font-bold">
-              City:{" "}
-              <span className="font-normal">Koforidua Eastern Region</span>
+              City: <span className="font-normal">Ho Volta Region</span>
             </p>
 
-            <p className="font-bold">
+            {/* <p className="font-bold">
               Location:{" "}
               <span className="font-normal">Osabene (Opoku Nsiah Lane 14)</span>
-            </p>
+            </p> */}
           </div>
 
           {/* 2nd  */}
@@ -37,7 +36,7 @@ const Design_brief = () => {
             {/* title  */}
             <h1 className="text-3xl font-bold uppercase my-6">Project Info</h1>
             <p className="font-bold">
-              Project name: <span className="font-normal">Elegant looks</span>
+              Project name: <span className="font-normal">Classic looks</span>
             </p>
 
             <p className="font-bold">
@@ -59,9 +58,9 @@ const Design_brief = () => {
             </p>
 
             <p className="font-bold">
-              Colour & Fabric:{" "}
+              Color & Fabric:{" "}
               <span className="font-normal">
-                White and blue/ grandpa fabric{" "}
+                Color & Fabric: Green paradise fabric{" "}
               </span>
             </p>
           </div>
@@ -76,9 +75,7 @@ const Design_brief = () => {
 
             <p className="font-bold">
               Target Audience:{" "}
-              <span className="font-normal">
-                Young women and General public. Interested in fashion.
-              </span>
+              <span className="font-normal">Women interested in fashion</span>
             </p>
           </div>
 
@@ -97,7 +94,7 @@ const Design_brief = () => {
               Design Presentation
             </h1>
             <p className="font-normal">
-              Website, jpeg, Mood board, Inspiration board, Fabric board, Colour
+              Website, jpeg, Mood board, Inspiration board, Fabric board, Color
               palette, Cost sheet
             </p>
           </div>

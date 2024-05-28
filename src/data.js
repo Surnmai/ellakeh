@@ -5,7 +5,7 @@ export const navlinks = [
   { path: "/", text: "home" },
   { path: "/about", text: "about" },
   {
-    path: "https://drive.google.com/file/d/1-ChbP6tyhuBL4pD_iMNNeY5bOaLauNSI/view?usp=sharing",
+    path: "https://drive.google.com/file/d/1QpbxHZA2wmR0o0nVV7Q1DO9PyMJU9P4O/view?usp=sharing",
     text: "resume",
   },
   {

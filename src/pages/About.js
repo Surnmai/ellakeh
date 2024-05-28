@@ -12,27 +12,26 @@ const About = () => {
     <>
       <TopBanner img={AboutTop} title="About" />
       <section className="section ">
-        <div className="container mx-auto md:flex flex-wrap gap-8">
+        <div className="container mx-auto md:flex items-center flex-wrap gap-8">
           {/* content  */}
           <div className="my-8 flex-1 leading-5 text-justify text-lg">
             <p className="p-2">
-              Kompari Salomey is my name and I am the CEO of Beads and Buttons.
-              I am an enthusiastic and smart young fashion designer. I also
-              specialize in Bead making which allows me to express my creativity
-              in a multitude of different ways.
+              Keh Emmanuella is my name, an acclaimed teacher with 7 years of
+              teaching experience. Born on the 22nd of April in Ho, in the Volta
+              Region of Ghana. I grew up with the passion for fashion design and
+              studied it at the University (Aamusted).
             </p>
             <p className="p-2">
-              In everything I do, I pride myself on being punctual,
-              well-organized, innovative, reliable, and efficient. I believe
-              that these qualities are essential for any successful fashion
-              designer, and I always strive to achieve a very high standard in
-              everything | undertake.
+              After beginning my career at GES I quickly rose through the ranks,
+              earning recognition for my innovative approach to teaching career
+              technology. I have since worked with GES.
             </p>
             <p className="p-2">
-              I have always been passionate about the fashion industry and began
-              my journey by studying at a prestigious fashion school.
+              My achievements include good grades from the BECE and some skills
+              students have learnt. At my leisure time, I enjoy spending time
+              with toddlers and singing rhymes with them.
             </p>
-            <p className="p-2">
+            {/* <p className="p-2">
               Today, I have my own fashion line that is known for being stylish,
               unique, and classic. When I'm not designing, I enjoy spending time
               with my family and friends, traveling, and exploring new cultures.
@@ -60,7 +59,7 @@ const About = () => {
               My vision is to revolutionize the fashion industry by merging
               creativity with sustainability, and bringing bespoke fashion to
               all people regardless of their size, style or background.
-            </p>
+            </p> */}
           </div>
 
           {/* image  */}

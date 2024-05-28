@@ -41,15 +41,15 @@ const Fabric_board = () => {
               clickable: true,
             }}
             modules={[Autoplay]}
-            className="max-w-96 max-h-max-w-96"
+            className="max-w-[30rem] max-h-[30rem]"
           >
-            <SwiperSlide className="rounded-md overflow-hidden">
+            {/* <SwiperSlide className="rounded-md overflow-hidden">
               <img
                 src={FabricBoard1}
                 alt=""
                 className="w-full h-full object-cover"
               />
-            </SwiperSlide>
+            </SwiperSlide> */}
             <SwiperSlide className="rounded-md overflow-hidden mb-6">
               <img
                 src={FabricBoard}
