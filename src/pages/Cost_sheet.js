@@ -22,11 +22,11 @@ const Cost_sheet = () => {
 
               <div className="flex items-center justify-center gap-x-2 capitalize">
                 <p className="font-bold ">fabric:</p>
-                <span>white grandpa fabric</span>
+                <span>green paradise fabric</span>
               </div>
               <div className="flex items-center justify-center gap-x-2 capitalize">
                 <p className="font-bold ">Design:</p>
-                <span>blue grandpa fabric</span>
+                <span>green paradise fabric</span>
               </div>
             </div>
 
@@ -37,7 +37,7 @@ const Cost_sheet = () => {
 
             <div className="mb-3">
               <h3 className="capitalize font-bold text-2xl">yards</h3>
-              <p>4</p>
+              <p>6</p>
             </div>
           </div>
 
@@ -51,7 +51,7 @@ const Cost_sheet = () => {
             </div>
             <div className="flex items-center justify-center gap-x-2 capitalize">
               <p className="font-bold ">pattern: </p>
-              <article>shirt and trouser block </article>
+              <article>bodice block and flare block </article>
             </div>
             <div className="flex items-center justify-center gap-x-2 capitalize">
               <p className="font-bold ">width: </p>
@@ -63,15 +63,15 @@ const Cost_sheet = () => {
             </div>
             <div className="flex items-center justify-center gap-x-2 capitalize">
               <p className="font-bold ">content: </p>
-              <article>cotton, wool</article>
+              <article>silk</article>
             </div>
             <div className="flex items-center justify-center gap-x-2 capitalize">
               <p className="font-bold ">colors: </p>
-              <article>white blue</article>
+              <article>green</article>
             </div>
             <div className="flex items-center justify-center gap-x-2 capitalize mb-4">
               <p className="font-bold ">sales person: </p>
-              <article>mama vee</article>
+              <article>mama jane</article>
             </div>
           </div>
 
@@ -81,11 +81,11 @@ const Cost_sheet = () => {
             {/* text  */}
             <div className="flex items-center justify-center gap-x-2 capitalize">
               <p className="font-bold ">style: </p>
-              <article>classic trouser and short sleeves shirt</article>
+              <article>Bustier long flare dress</article>
             </div>
             <div className="flex items-center justify-center gap-x-2 capitalize">
               <p className="font-bold ">prices: </p>
-              <article> 350.00</article>
+              <article> 450.00</article>
             </div>
             <div className="flex items-center justify-center gap-x-2 capitalize">
               <p className="font-bold ">date: </p>
@@ -97,7 +97,7 @@ const Cost_sheet = () => {
             </div>
             <div className="flex items-center justify-center gap-x-2 capitalize mb-8">
               <p className="font-bold ">colors: </p>
-              <article>white blue</article>
+              <article>green</article>
             </div>
           </div>
 
@@ -108,10 +108,9 @@ const Cost_sheet = () => {
               <div className="capitalize">
                 <h1 className="uppercase font-bold mb-2">materials estimate</h1>
                 <div>
-                  <p>White grandpa fabric 4yards</p>
-                  <p>Blue grandpa fabric 1yard</p>
-                  <p>Zippers 2</p>
-                  <p>Buttons 1pack </p>
+                  <p>green paradise fabric 6 yards</p>
+                  <p>Zipper 1</p>
+                  {/* <p>Buttons 1pack </p> */}
                 </div>
               </div>
 
@@ -119,19 +118,19 @@ const Cost_sheet = () => {
                 <h1 className="uppercase font-bold mb-2">Actual price</h1>
                 <div>
                   <p>60.00</p>
-                  <p>60</p>
-                  <p>10.00</p>
-                  <p>30.00</p>
+                  <p>5.0</p>
+                  {/* <p>10.00</p>
+                  <p>30.00</p> */}
                 </div>
               </div>
 
-              <div className="capitalize">
+              <div className="capitalize mb-6">
                 <h1 className="uppercase font-bold mb-2">amount</h1>
                 <div>
-                  <p>240.00</p>
-                  <p>60.00</p>
-                  <p>20.00</p>
-                  <p>30.00</p>
+                  <p>360.00</p>
+                  <p>5.00</p>
+                  {/* <p>20.00</p>
+                  <p>30.00</p> */}
                 </div>
               </div>
             </div>
@@ -139,7 +138,7 @@ const Cost_sheet = () => {
           {/* total cost  */}
           <div className="md:flex gap-[26.4rem] px-[5.5rem] capitalize font-bold mb-6">
             <h1>total cost</h1>
-            <p>350.00</p>
+            <p>365.00</p>
           </div>
         </div>
       </section>

@@ -3,7 +3,6 @@ import React from "react";
 // import image
 import WorkSketchesBanner from "../img/workSketchesBanner.jpg";
 import WorksketchessImg from "../img/flats.jpg";
-import WorksketchesImg1 from "../img/flats1.jpg";
 
 // import Component
 import TopBanner from "../components/TopBanner";
@@ -26,48 +25,48 @@ const Working_sketches = () => {
               {/* texts  */}
               <div>
                 <h1 className="font-bold uppercase">Threads</h1>
-                <p>Spun Polyester sewing thread (white)</p>
+                <p>Spun Polyester sewing thread (green)</p>
               </div>
               <div>
                 <h1 className="font-bold uppercase">Opening</h1>
                 {/* mini title text  */}
                 <div className="flex gap-2">
-                  <p className="font-bold">Shirt: </p>
-                  <article>Opening at the shoulder(zipper)</article>
+                  <p className="font-bold">Dress: </p>
+                  <article>Opening at the seam(zipper)</article>
                 </div>
-                <div className="flex gap-2">
+                {/* <div className="flex gap-2">
                   <p className="font-bold">Pant:</p>
                   <article>Zipper,Button and Button holes</article>
-                </div>
+                </div> */}
               </div>
               <div>
                 <h1 className="font-bold uppercase">Product types</h1>
-                <p>Shot sleeves shirt</p>
-                <p>Pants(trouser)</p>
+                <p>Long dress</p>
+                {/* <p>Pants(trouser)</p> */}
               </div>
               <div>
                 <h1 className="font-bold uppercase">Garment attributes</h1>
                 {/* mini title text  */}
                 <div className="flex gap-2">
-                  <p className="font-bold">Shirt: </p>
-                  <article>Side seam, Notches, Yoke</article>
+                  <p className="font-bold">Dress: </p>
+                  <article>Side seam, Notches, Darts</article>
                 </div>
-                <div className="flex gap-2">
+                {/* <div className="flex gap-2">
                   <p className="font-bold">Pant:</p>
                   <article>Side seam, Darts, Belt loops, Band, Pockets</article>
-                </div>
+                </div> */}
               </div>
               <div>
                 <h1 className="font-bold uppercase">Closure</h1>
                 {/* mini title text  */}
                 <div className="flex gap-2">
-                  <p className="font-bold">Shirt: </p>
+                  <p className="font-bold">Dress: </p>
                   <article>Zipper</article>
                 </div>
-                <div className="flex gap-2">
+                {/* <div className="flex gap-2">
                   <p className="font-bold">Pant: : </p>
                   <article>Zipper, Button and Button holes</article>
-                </div>
+                </div> */}
               </div>
               <div>
                 <h1 className="font-bold uppercase">Consumer</h1>
@@ -77,9 +76,9 @@ const Working_sketches = () => {
           </div>
 
           {/* Images  */}
-          <div className="flex flex-col md:flex-row gap-16">
+          <div className="flex items-center justify-center mb-8">
             {/* img1  */}
-            <div className="mb-8 flex-1 shadow-md shadow-slate-950 rounded-md overflow-hidden">
+            <div className="h-[38rem] w-[38rem] shadow-md shadow-slate-950 rounded-md overflow-hidden">
               {/* title  */}
               <h1 className="p-4 bg-black text-white text-lg">
                 Front and back shirt sketches{" "}
@@ -89,21 +88,6 @@ const Working_sketches = () => {
                 <img
                   className="w-full h-full object-cover"
                   src={WorksketchessImg}
-                  alt="PatternChat"
-                />
-              </div>
-            </div>
-            {/* img2  */}
-            <div className="mb-8 flex-1 shadow-md shadow-slate-950 rounded-md overflow-hidden">
-              {/* title  */}
-              <h1 className="p-4 bg-black text-white text-lg">
-                Front and back trouser sketches{" "}
-              </h1>
-              {/* Img  */}
-              <div className="h-[50rem]">
-                <img
-                  className="w-full h-full object-cover"
-                  src={WorksketchesImg1}
                   alt="PatternChat"
                 />
               </div>

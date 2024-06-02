@@ -2,7 +2,7 @@ import React from "react";
 
 // import picture
 import CroquisBanner from "../img/croquisBanner.jpg";
-import CroquisImg from "../img/corquis.jpg";
+import CroquisImg from "../img/croquis.jpg";
 
 // import Components
 import TopBanner from "../components/TopBanner";

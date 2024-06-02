@@ -20,7 +20,7 @@ export const navlinks = [
       { path: "/fabric-board", text: "fabric board" },
       { path: "/flats", text: "flats" },
       { path: "/croquis", text: "croquis" },
-      { path: "/pattern-charts", text: "pattern charts" },
+      // { path: "/pattern-charts", text: "pattern charts" },
       { path: "/working-sketches", text: "working sketches" },
       { path: "/design-specifications", text: "design specifications" },
       { path: "/drafting", text: "Drafting" },

@@ -1,7 +1,6 @@
 import React from "react";
 
 // import image
-import FlastImg1 from "../img/flats1.jpg";
 import FlatsImg from "../img/flats.jpg";
 import FlatsBanner from "../img/flatsBanner.jpg";
 
@@ -43,13 +42,13 @@ const Flats = () => {
             modules={[Autoplay]}
             className="max-w-96 max-h-max-w-96 mb-6"
           >
-            <SwiperSlide className="rounded-md overflow-hidden">
+            {/* <SwiperSlide className="rounded-md overflow-hidden">
               <img
                 src={FlastImg1}
                 alt=""
                 className="w-full h-full object-cover"
               />
-            </SwiperSlide>
+            </SwiperSlide> */}
             <SwiperSlide className="rounded-md overflow-hidden">
               <img
                 src={FlatsImg}

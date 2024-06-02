@@ -3,7 +3,7 @@ import React from "react";
 const TopBanner = ({ img, title }) => {
   return (
     <>
-      <section className="h-[40vh] p-0 relative brightness-[40%] flex items-center justify-center">
+      <section className="h-[30vh] p-0 relative brightness-[40%] flex items-center justify-center">
         <img
           src={img}
           alt={title}
