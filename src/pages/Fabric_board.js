@@ -1,7 +1,6 @@
 import React from "react";
 
 // import image
-import FabricBoard1 from "../img/fabric board1.jpg";
 import FabricBoard from "../img/fabric board.jpg";
 import FabricBoardBanner from "../img/fabricboardbanner.jpg";
 
